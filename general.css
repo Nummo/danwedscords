@@ -1,0 +1,679 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #EEE;
+  font-family: /*10px/13px*/ 'Lucida Sans',sans-serif;
+}
+
+ 
+/*@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+    /*background: #ffffff;*/
+  /*}*/
+
+/*}*/
+
+@media only screen and (max-width: 361px) and (min-width : 300px) {
+  /*iphone 5*/
+
+  /*.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }*/
+
+  .hero-text{
+      /*position: absolute;
+      top: 90%;
+      margin-top:10%;
+      padding-bottom: 15%;*/
+      text-align: right;
+      position: absolute;
+      top: 80%;
+      left: 60%;
+      transform: translate(-5%, -80%);
+      color: white;
+      padding-right: 0px;
+      }
+
+  .header{
+      /*padding-top: 180px;*/
+      font-size: 12px;
+      text-align: right;
+      line-height: 8px;
+      font-family: Dancing Script;
+    }
+
+    .header-info{
+      font-size: 8px;
+      padding-bottom: 0%;
+      color: #FFFFFF;
+      outline: 2px 2px #996633;
+      font-family: 'Lucida Sans',sans-serif;
+    }
+
+    /*text on 1st/main photo*/
+      .hashtag{
+        font-size:8px;
+        font-family: 'Lucida Sans',sans-serif;
+      }
+
+     /* .poem {
+        font-size:7px;
+        font-family: 'Lucida Sans',sans-serif;
+        /*color: #012d38;*/
+      /*}*/
+
+      .invite{
+        font-size: 10px;
+        font-style: italic;
+          font-family: 'Lucida Sans',sans-serif;
+      }
+
+      .mainBody h1{
+        color: #028bad;
+        /*padding-bottom: 5px;*/
+      }
+
+    /*     .poemMobile{
+          display: none;
+        }
+  
+      #poemMobiInfo{
+         display: none;
+      }
+
+      #poemMobiButtonReveal{
+        display: none;
+      }
+
+      #poemMobiButton{
+        display: none;
+      }
+*/
+}
+
+ 
+ @media only screen and (max-width: 360px) and (min-width : 300px) {
+  /*iphone 5*/   
+
+  .header{
+      /*padding-top: 180px;*/
+      font-size: 16px;
+      text-align: right;
+      line-height: 20px;
+      font-family: Dancing Script;
+    }
+
+    .header-info{
+      font-size: 8px;
+      padding-bottom: 0%;
+      color: #FFFFFF;
+      /*outline: 2px 2px #996633;*/
+      font-family: 'Lucida Sans',sans-serif;
+    }
+
+    /*text on 1st/main photo*/
+      .hashtag{
+        font-size:4px;
+        font-family: 'Lucida Sans',sans-serif;
+      }
+
+      .poem {
+        display: none;
+        /*font-size:4px;
+        font-family: 'Lucida Sans',sans-serif;
+        /*color: #012d38;*/
+      }
+
+      .poemMobi{
+      display: block;
+      font-size:4px;
+        font-family: 'Lucida Sans',sans-serif;
+      }
+
+      .invite{
+        display: none;
+      }
+
+.mainBody h1{
+        color: #028bad;
+        /*padding-bottom: 5px;*/
+      }
+     /* .poemMobile{
+        display: none;
+      }
+  
+    #poemMobiInfo{
+         display: none;
+      }
+
+      #poemMobiButtonReveal{
+        display: none;
+      }
+
+      #poemMobiButton{
+        display: none;
+      }*/
+}
+
+@media only screen and (max-width: 479px) and (min-width : 361px) {
+  /*Galaxy S5*/
+
+  /*.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }*/
+
+  .hero-text{
+      /*position: absolute;
+      top: 90%;
+      margin-top:10%;
+      padding-bottom: 15%;*/
+      text-align: right;
+      position: absolute;
+      top: 80%;
+      left: 60%;
+      transform: translate(-5%, -80%);
+      color: white;
+      padding-right: 0px;
+
+      }
+
+
+  .header{
+      /*padding-top: 180px;*/
+      font-size: 16px;
+      text-align: right;
+      line-height: 20px;
+      font-family: Dancing Script;
+    }
+
+    .header-info{
+      font-size: 8px;
+      padding-bottom: 0%;
+      color: #FFFFFF;
+      /*outline: 2px 2px #996633;*/
+      font-family: 'Lucida Sans',sans-serif;
+    }
+
+    /*text on 1st/main photo*/
+      .hashtag{
+        font-size:7px;
+        font-family: 'Lucida Sans',sans-serif;
+      }
+
+      .poem {
+        font-size:4px;
+        font-family: 'Lucida Sans',sans-serif;
+        /*color: #012d38;*/
+      }
+
+      .invite{
+        font-size: 5px;
+        font-style: italic;
+          font-family: 'Lucida Sans',sans-serif;
+      }
+
+
+.mainBody h1{
+        color: #028bad;
+        /*padding-bottom: 5px;*/
+      }
+    /*  .poemMobile{
+          display: block;
+           z-index: 2;
+        }
+  
+      #poemMobiInfo{
+         display: block;
+      }
+
+      #poemMobiButtonReveal{
+  
+        border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: white;
+      background-color: #e0a509;
+      text-align: center;
+      cursor: pointer;
+      }
+
+      #poemMobiButton{
+        border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: white;
+      background-color: #e0a509;
+      text-align: center;
+      cursor: pointer;
+      }*/
+  
+}
+
+@media only screen and (max-width : 480px) {
+  /* Smartphone view: 1 tile */
+    .hero-text{
+      /*position: absolute;
+      top: 90%;
+      margin-top:10%;
+      padding-bottom: 15%;*/
+      text-align: right;
+      position: absolute;
+      top: 70%;
+      left: 60%;
+      transform: translate(-5%, -80%);
+      color: white;
+      padding-right: 0px;
+      }
+
+   .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #e0a509;
+    text-align: center;
+    cursor: pointer;
+    }
+
+    .hero-text button:hover {
+      background-color: #028bad;
+      color: white;
+    }
+
+    
+  .header{
+      /*padding-top: 180px;*/
+      font-size: 16px;
+      text-align: right;
+      line-height: 20px;
+      font-family: Dancing Script;
+    }
+
+    .header-info{
+      font-size: 8px;
+      padding-bottom: 0%;
+      color: #FFFFFF;
+      /*outline: 2px 2px #996633;*/
+      font-family: 'Lucida Sans',sans-serif;
+    }
+
+    /*text on 1st/main photo*/
+      .hashtag{
+        font-size:7px;
+        font-family: 'Lucida Sans',sans-serif;
+      }
+
+      .poem {
+        font-size:4px;
+        font-family: 'Lucida Sans',sans-serif;
+        /*color: #012d38;*/
+      }
+
+     /* button .poemMobi{
+        display: none;
+      }
+
+      #poemMobiButtonReveal{
+        display: none;
+      }*/
+
+      .invite{
+        font-size: 5px;
+        font-style: italic;
+          font-family: 'Lucida Sans',sans-serif;
+      }
+
+      button .RSVP{
+          text-align: center;
+          top:180%;
+          }
+
+          .mainBody h1{
+        color: #028bad;
+        /*padding-bottom: 5px;*/
+      }
+
+    /*  .poemMobile{
+          display: none;
+        }
+  
+     #poemMobiInfo{
+         display: none;
+      }
+
+      #poemMobiButtonReveal{
+        display: none;
+      }
+
+      #poemMobiButton{
+        display: none;
+      }*/
+      .poem {
+        display: none;
+      }
+
+      .mainBody h1{
+        color: #028bad;
+        /*padding-bottom: 5px;*/
+      }
+
+      .mainBody p{
+        font-size: 10px;
+      }
+  }
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+  /* Tablet view: 2 tiles */
+  
+    .hero-text{
+    text-align: right;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-5%, -80%);
+    color: white;
+    padding-right: 0px;
+    /*margin-top:10%;
+    padding-bottom: 15%;*/
+    }
+
+    /*text on 1st/main photo*/
+       .header{
+        font-size:20px;
+        font-family: Dancing Script;
+        text-align: right;
+      }
+
+      /*text on 1st/main photo*/
+       .header-info{
+        font-size:11px;
+        font-family: 'Lucida Sans',sans-serif;
+      }
+
+      /*text on 1st/main photo*/
+      .hashtag{
+        font-size:10px;
+        font-family: 'Lucida Sans',sans-serif;
+      }
+
+      .poem {
+        font-size:9px;
+        font-family: 'Lucida Sans',sans-serif;
+        /*color: #012d38;*/
+      }
+
+      .poemMobi{
+         display: none;
+      }
+      .invite{
+        font-size: 10px;
+        font-style: italic;
+          font-family: 'Lucida Sans',sans-serif;
+      }
+
+.mainBody h1{
+        color: #028bad;
+        /*padding-bottom: 5px;*/
+      }
+
+      button .RSVP{
+          text-align: center;
+          top:180%;
+          }
+      
+     /* .poemMobile{
+        display: none;
+      }
+  
+      #poemMobiInfo{
+         display: none;
+      }
+
+      #poemMobiButtonReveal{
+        display: none;
+      }
+
+      .poemMobiButton{
+        display: none;
+      }*/
+  }
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+  /* Small desktop / ipad view: 3 tiles */
+  .hero-text{
+      text-align: right;
+      position: absolute;
+      top: 70%;
+      left: 60%;
+      transform: translate(-5%, -80%);
+      color: white;
+      padding-right: 0px;
+
+      }
+
+   .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: white;
+      background-color: #e0a509;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .hero-text button:hover {
+      background-color: #028bad;
+      color: white;
+    }
+
+    .header{
+      /*padding-top: 180px;*/
+      font-size: 20px;
+      text-align: right;
+      line-height: 20px;
+      font-family: Dancing Script;
+    }
+
+    .header-info{
+      font-size: 9px;
+      padding-bottom: 0%;
+      color: #FFFFFF;
+      outline: 2px 2px #996633;
+      font-family: 'Lucida Sans',sans-serif;
+    }
+
+    /*text on 1st/main photo*/
+      .hashtag{
+        font-size:9px;
+        font-family: 'Lucida Sans',sans-serif;
+      }
+
+      .poem {
+        font-size:8px;
+        font-family: 'Lucida Sans',sans-serif;
+        /*color: #012d38;*/
+      }
+
+      .poemMobi{
+         display: none;
+      }
+
+      .invite{
+        font-size: 8px;
+        font-style: italic;
+          font-family: 'Lucida Sans',sans-serif;
+      }
+
+      button .RSVP{
+          text-align: center;
+          top:180%;
+          }
+
+.mainBody h1{
+        color: #028bad;
+        /*padding-bottom: 5px;*/
+      }
+     /* .poemMobile{
+        display: none;
+      }
+  
+     #poemMobiInfo{
+         display: none;
+      }
+
+      #poemMobiButtonReveal{
+        display: none;
+      }
+
+      #poemMobiButton{
+        display: none;
+      }*/
+  }
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+ /* Medium desktop: 4 tiles */
+  /*text on 1st image*/
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  padding-right: 0px;
+  color: white;
+  transform: translate(-5%, -80%);
+  /*padding: 2px; */
+}
+
+/*index.html only*/
+.hero-text-main{
+    /* Fallback for web browsers that don't support RGBa */
+  background-color: rgb(  220, 220, 220);
+   /* RGBa with 0.6 opacity */
+   background-color: rgb( 220, 220, 220, 0.8);
+   /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #e0a509;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.hero-text button:hover {
+  background-color: #028bad;
+  color: white;
+}
+
+/*main-text in mainBody*/
+
+h1 {
+  align-content: center;
+  text-align: center;
+}
+
+.mainBody h1{
+        color: #028bad;
+        /*padding-bottom: 5px;*/
+      }
+
+/*text on 1st/main photo*/
+ .header{
+  font-size:80px;
+  font-family: Dancing Script;
+  text-align: right;
+}
+
+/*text on 1st/main photo*/
+ .header-info{
+  font-size:16px;
+  font-family: 'Lucida Sans',sans-serif;
+}
+
+/*text on 1st/main photo*/
+.hashtag{
+  font-size:14px;
+  font-family: 'Lucida Sans',sans-serif;
+}
+
+.poem {
+  font-size:14px;
+  font-family: 'Lucida Sans',sans-serif;
+  /*color: #012d38;*/
+}
+
+/*.poemMobi{
+     display: none;
+  }
+
+  #poemMobiInfo{
+         display: none;
+      }
+
+ #poemMobiButtonReveal{
+        display: none;
+      }
+
+  #poemMobiButton{
+        display: none;
+      }
+
+   .poemMobile{
+    display: none;
+  }
+*/
+.invite{
+  font-size: 14px;
+  font-style: italic;
+    font-family: 'Lucida Sans',sans-serif;
+}
+
+.outline{
+  color: #012d38;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+button .RSVP{
+  text-align: center;
+}
+
+
+  }

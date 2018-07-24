@@ -1,0 +1,176 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #EEE;
+  font-family: /*10px/13px*/ 'Lucida Sans',sans-serif;
+}
+
+
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+ /* Medium desktop: 4 tiles */
+ .poemMobile{
+    display: none;
+    }
+
+}
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+  /* Small desktop / ipad view: 3 tiles */
+  .poemMobile{
+      display: none;
+      }
+}
+
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+  /* Tablet view: 2 tiles */
+.poemMobile{
+    display: none;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+  /* Smartphone view: 1 tile */
+  .poemMobile{
+    display: block;
+    position: relative;
+    top:40%;
+    right: 0px;
+    }
+    
+  #poemMobiButtonReveal {
+        position: absolute;
+        top: 82px;
+        right: 0px;
+        width: 100%;
+        padding: 5px 1px 5px 1px;
+        text-align: right;
+            /* Fallback for web browsers that don't support RGBa */
+        background-color: rgb(  220, 220, 220);
+         /* RGBa with 0.6 opacity */
+         background-color: rgb( 220, 220, 220, 0.9);
+         /* For IE 5.5 - 7*/
+          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+          /* For IE 8*/
+          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+        margin-top: 15px;
+        font-family: 'Lucida Sans',sans-serif;
+        font-size: 7px;
+
+    }
+
+    #poemMobiInfo {
+       color: white;
+    position: absolute;
+        top: 18px;
+        right: 0px;
+        width: 100%;
+        padding: 40px 5px;;
+        text-align: right;
+        margin-top: 2px;
+        font-family: 'Lucida Sans',sans-serif;
+        font-size: 8px;
+
+    }
+
+    #poemMobiButton{     
+position: absolute;
+    top: 8px;
+    right: 0px;
+        border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: white;
+      background-color: #e0a509;
+      text-align: right;
+      cursor: pointer;
+      width: 70%;
+
+    }
+
+}
+
+@media only screen and (max-width: 361px) and (min-width : 300px) {
+  /*iphone 5*/
+ .poemMobile{
+    display: block;
+    position: relative;
+    top:40%;
+    right: 0px;
+    }
+    
+  #poemMobiButtonReveal {
+        position: absolute;
+        top: 82px;
+        right: 0px;
+        width: 100%;
+        padding: 5px 1px 5px 1px;
+        text-align: right;
+            /* Fallback for web browsers that don't support RGBa */
+        background-color: rgb(  220, 220, 220);
+         /* RGBa with 0.6 opacity */
+         background-color: rgb( 220, 220, 220, 0.9);
+         /* For IE 5.5 - 7*/
+          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+          /* For IE 8*/
+          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+        margin-top: 15px;
+        font-family: 'Lucida Sans',sans-serif;
+        font-size: 7px;
+
+    }
+
+    #poemMobiInfo {
+       color: white;
+    position: absolute;
+        top: 18px;
+        right: 0px;
+        width: 100%;
+        padding: 40px 5px;;
+        text-align: right;
+        margin-top: 2px;
+        font-family: 'Lucida Sans',sans-serif;
+        font-size: 8px;
+
+    }
+
+    #poemMobiButton{     
+position: absolute;
+    top: 8px;
+    right: 0px;
+        border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: white;
+      background-color: #e0a509;
+      text-align: right;
+      cursor: pointer;
+      width: 70%;
+
+    }
+
+}
+
+@media only screen and (max-width: 479px) and (min-width : 360px) {
+  /*Galaxy S5*/
+  
+
+
+}
+
+/*Responsive Topnav-mobile*/
+@media screen and (max-width: 361px) and (min-width : 300px) {
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+}
+

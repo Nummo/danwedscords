@@ -1,0 +1,73 @@
+/*footer*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  font-size: 8px;
+  background-color: #DCDCDC;
+  color:  #A9A9A9;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 360px)  {
+  /*Galaxy S5*/
+
+  .footer {
+  font-size: 10px;
+  height: 5%;
+  width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 361px) and (min-width : 300px) {
+/*iphone 5*/
+  .footer {
+  font-size: 10px;
+  height: 5%;
+  width: 100%;
+  }
+}
+    
+@media only screen and (max-width : 480px) and (min-width : 361px){
+  /* Smartphone view: 1 tile */
+  .footer {
+  font-size: 10px;
+  height: 5%;
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+  /* Tablet view: 2 tiles */
+  .footer {
+  font-size: 5px;
+  height: 3%;
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+  /* Small desktop / ipad view: 3 tiles */
+  .footer {
+  font-size: 10px;
+  height: 5%;
+  width: 100%;
+  }
+}
+
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+ /* Medium desktop: 4 tiles */
+  /*text on 1st image*/
+  .footer {
+  font-size: 10px;
+  height: 5%;
+  width: 100%;
+  }
+
+}

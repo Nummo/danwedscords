@@ -1,0 +1,48 @@
+body {
+  font-family: 'Lucida Sans',sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  /*background-color: #e0a509;*/
+  height: 500px;
+  color: black;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e0a509;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #028bad;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #028bad;
+  color: black;
+}
+
+.active {
+  background-color: #e0a509;
+  color: white;
+}
